@@ -1,0 +1,16 @@
+.post {
+    padding: 20px;
+
+    &--head > * {
+        padding: 5px 0;
+    }
+
+    &--date {
+        font-size: 0.85em;
+        color: grey;
+    }
+
+    &--body p {
+        text-align: justify;
+    }
+}

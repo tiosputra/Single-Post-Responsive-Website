@@ -1,0 +1,48 @@
+// Will define the page into section, mojor section
+// E.g header`, main-content, section-a or footer. or perhaps a sidebar
+
+// We also define spesific modular classes that we will append
+// to our module in other element
+// e.g .pull-right
+
+#header {
+    box-shadow: 0 0 1px 0 $primary-color;
+}
+
+#footer {
+    padding: 20px;
+    background-color: $accent-color;
+    color: white;
+    text-align: justify;
+}
+
+
+@media(min-width:640px){
+    #main {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+    }
+
+
+}
+
+@media(min-width:900px){
+    #main {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 100px;
+    }
+}
+
+.push-right {
+    display: block;
+    text-align: right;
+}
