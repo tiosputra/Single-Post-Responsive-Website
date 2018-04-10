@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,67 +9,102 @@
     <link rel="stylesheet" href="sass/index.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
 </head>
+
 <body>
     <header id="header">
-            <div class="topnav" id="myTopnav">
-                    <a href="#home" class="active">Home</a>
-                    <a href="#news">News</a>
-                    <a href="#contact">Contact</a>
-                    <a href="#about">About</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-                  </div>
+        <nav class="nav" id="myTopnav">
+            <a class="nav--item" ref="#home">Home</a>
+            <a class="nav--item" href="#news">News</a>
+            <a class="nav--item" href="#contact">Contact</a>
+            <a class="nav--item" href="#about">About</a>
+            <a class="nav--icon" href="javascript:void(0);" onclick="toggleNavbar()">&#9776;</a>
+        </nav>
+
+        <div class="afternav">
+            <br>
+            <br>
+            <br>
+        </div>
     </header>
 
     <main id="main">
         <section class="post">
             <div class="post--head">
-                <h1 class="post--title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cupiditate natus vitae labore reprehenderit perspiciatis sequi ipsa aut sunt placeat?</h1>
+                <h1 class="post--title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cupiditate natus vitae labore reprehenderit
+                    perspiciatis sequi ipsa aut sunt placeat?</h1>
                 <span class="post--date">April 6 2018</span>
                 <img class="img-responsive" src="public/images/cola.jpg" alt="Cola-cola">
             </div>
             <div class="post--body">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, corporis nesciunt molestiae vitae amet illo ab aspernatur. Recusandae laudantium inventore enim pariatur libero, delectus dolores optio perferendis maiores? Sequi, laudantium? Quaerat, odit delectus facere labore officiis repellat earum explicabo, possimus soluta tenetur sed maxime. Sed ipsam in perferendis itaque tempora.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, corporis nesciunt molestiae vitae amet
+                    illo ab aspernatur. Recusandae laudantium inventore enim pariatur libero, delectus dolores optio perferendis
+                    maiores? Sequi, laudantium? Quaerat, odit delectus facere labore officiis repellat earum explicabo, possimus
+                    soluta tenetur sed maxime. Sed ipsam in perferendis itaque tempora.</p>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolores omnis eligendi est. Minus error aspernatur eos a quibusdam architecto.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolores omnis eligendi est. Minus error aspernatur
+                    eos a quibusdam architecto.</p>
 
-                <h2> <span class="number">#1</span> Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores libero alias vel minus, obcaecati asperiores deleniti doloribus, fuga nam voluptatem temporibus ducimus itaque qui? Architecto?</p>
+                <h2>
+                    <span class="number">#1</span> Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores libero alias vel minus, obcaecati asperiores
+                    deleniti doloribus, fuga nam voluptatem temporibus ducimus itaque qui? Architecto?</p>
 
-                <h2> <span class="number">#2</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam molestiae at quasi reprehenderit possimus a nostrum ipsam facilis dolor repellendus. Necessitatibus minus iusto voluptatem consequuntur, magnam expedita facilis voluptate cupiditate.</p>
+                <h2>
+                    <span class="number">#2</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam molestiae at quasi reprehenderit possimus a
+                    nostrum ipsam facilis dolor repellendus. Necessitatibus minus iusto voluptatem consequuntur, magnam expedita
+                    facilis voluptate cupiditate.</p>
 
-                <h2> <span class="number">#3</span> Lorem ipsum dolor</h2>
-                <p>sit amet consectetur adipisicing elit. Magni est nulla saepe, impedit, a esse, unde amet quo libero laborum dolores quia! Eos architecto totam quas deserunt facilis voluptates deleniti repellat unde necessitatibus at corporis consequuntur ipsa minus possimus ducimus dolorem ea, nam placeat incidunt porro quidem eligendi aliquam? Incidunt!</p>
+                <h2>
+                    <span class="number">#3</span> Lorem ipsum dolor</h2>
+                <p>sit amet consectetur adipisicing elit. Magni est nulla saepe, impedit, a esse, unde amet quo libero laborum
+                    dolores quia! Eos architecto totam quas deserunt facilis voluptates deleniti repellat unde necessitatibus
+                    at corporis consequuntur ipsa minus possimus ducimus dolorem ea, nam placeat incidunt porro quidem eligendi
+                    aliquam? Incidunt!</p>
 
                 <img class="img-responsive" src="public/images/number3.png" alt="example-images">
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam hic sapiente quidem ab excepturi commodi rem aspernatur aut ut aliquam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam hic sapiente quidem ab excepturi commodi
+                    rem aspernatur aut ut aliquam!</p>
 
-                <h2><span class="number">#4</span> Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-                <p>Aliquam voluptatem, alias dolore exercitationem reiciendis mollitia nulla labore ab doloremque? Consequatur, non quis atque natus nobis modi minima repellendus accusamus pariatur!</p>
+                <h2>
+                    <span class="number">#4</span> Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>Aliquam voluptatem, alias dolore exercitationem reiciendis mollitia nulla labore ab doloremque? Consequatur,
+                    non quis atque natus nobis modi minima repellendus accusamus pariatur!</p>
 
 
-                <h2><span class="number">#5</span> Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum delectus ipsa commodi, fuga aliquam animi impedit quo sunt deserunt non eligendi aperiam ab. Dolor a eos explicabo sed similique vero molestiae minima unde, dicta atque nisi doloribus quis assumenda fugit, culpa neque ipsum repellendus natus nam quam deleniti fuga sit.</p>
-                
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eaque nihil unde non asperiores aperiam! Ea corporis officiis minima! Distinctio?</p>
+                <h2>
+                    <span class="number">#5</span> Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum delectus ipsa commodi, fuga aliquam animi
+                    impedit quo sunt deserunt non eligendi aperiam ab. Dolor a eos explicabo sed similique vero molestiae
+                    minima unde, dicta atque nisi doloribus quis assumenda fugit, culpa neque ipsum repellendus natus nam
+                    quam deleniti fuga sit.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eaque nihil unde non asperiores aperiam!
+                    Ea corporis officiis minima! Distinctio?</p>
             </div>
         </section>
     </main>
 
-    <footer id="footer">
-        <div id="about">
-            <h3>About</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut nesciunt, incidunt esse consectetur dolores ab. Consequatur quasi explicabo expedita consectetur hic ratione ipsum debitis eligendi sunt quaerat? Autem, impedit.
+    <footer id="wrapper">
+        <div id="footer">
+            <div id="about">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut nesciunt, incidunt esse consectetur dolores
+                    ab. Consequatur quasi explicabo expedita consectetur hic ratione ipsum debitis eligendi sunt quaerat?
+                    Autem, impedit.
                 </p>
-        </div>
+            </div>
 
-        <div id="social">
-            <h3>Connect</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, veritatis?</p>
+            <div id="social">
+                <h3>Connect</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, veritatis?</p>
+            </div>
         </div>
     </footer>
 
+    <script src="public/javascript/jquery.js"></script>
     <script src="public/javascript/index.js"></script>
 </body>
+
 </html>
